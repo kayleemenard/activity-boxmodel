@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+    font-family: Cambria, Georgia, Times, serif;
+}
+
+figure, p {
+    background-color: white;
+    padding: .5rem;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+.masthead {
+    background-color: #033;
+    overflow: hidden
+}
+
+.logo {
+    height: 4.5rem;
+    width: auto;
+    margin: .5rem 5%
+}
+
+.source {
+    background-color: #033   
+}
+
+body {
+    background-image:url('/images/washi.png');
+    background-color: beige;
+}
+
+article {
+    margin: 0;
+    padding: 0 5%;
+    overflow: hidden;
+}
+
+article a{
+    color: black
+}        
+
+h1 {
+    font-size: 3rem;
+    font-family: Gill sans, Futura, Helvetica, Ariel, sans-serif;
+    color: #033;
+    margin: 1.5rem 0;
+    line-height: 4rem
+}
+
+h2 {
+    font-size: 1rem;
+    font-family: Gill sans, futura, helvetica, ariel, sans-serif;
+    color: #033;
+    margin: 1.5rem 0;
+    line-height: 1.5rem
+}
+
+p {
+    line-height: 1.5rem;
+    margin: 0 0 1.5rem;
+}
+
+figure {
+    margin: 0 auto 1.5rem;
+    width: 100%;
+}
+
+figcaption{
+    font-size: .75rem;
+    font-style: italic;
+    color: #033;
+    margin: .5rem 0 0
+}
+
+footer {
+    background-color: #033;
+    overflow: hidden;
+}
+
+footer p {
+    font-size: .75rem;
+    margin: .5rem 5%;
+    color: white;
+}
+
+footer a {
+    color: grey   
+}
